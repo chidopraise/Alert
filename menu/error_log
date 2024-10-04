@@ -1,0 +1,30 @@
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 187
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 189
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 190
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 187
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 189
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 190
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 187
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 189
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 190
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 187
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 189
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 190
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 187
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 189
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 190
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 187
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 189
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 190
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 187
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 189
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 190
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 187
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 189
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 190
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 187
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 189
+[16-Feb-2021 13:17:49 africa/lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home4/asbesocv/public_html/images/asbesoc/lib/control.php on line 190
+[05-May-2021 04:29:06 africa/lagos] PHP Parse error:  syntax error, unexpected '.' in /home4/asbesocv/public_html/images/asbesoc/parts/chest.php on line 63
+[05-May-2021 04:29:33 africa/lagos] PHP Parse error:  syntax error, unexpected '.' in /home4/asbesocv/public_html/images/asbesoc/parts/chest.php on line 63
+[05-May-2021 04:30:04 africa/lagos] PHP Parse error:  syntax error, unexpected '.' in /home4/asbesocv/public_html/images/asbesoc/parts/chest.php on line 63
