@@ -1,13 +1,13 @@
-ALERT
-TAGLINE: Get ALerted On Security Trends !!!
+### ALERT
+## TAGLINE: Get ALerted On Security Trends !!!
 
 
-Team:
-Team members
-Abraham Livinus
-Gift Aghaulor
-Kelvin Anwenede
-Roles
+## Team:
+# Team members
+. Abraham Livinus
+. Gift Aghaulor
+. Kelvin Anwenede
+## Roles
 
 
 Team member
