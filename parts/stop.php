@@ -15,6 +15,7 @@
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAifKUM_566u7e4dpOKUjoVaplDlH3ZQqo&callback=initMap"></script>
 	<!-------
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZH-tILL3tpuv0Qn_WalVu65rIaeGiJNM&callback=initMap&libraries=places" async defer></script>
+------->
     <script>
         let map;
         let geocoder;
@@ -47,6 +48,6 @@
             });
         }
     </script>
-	----->
+	
 </body>
 </html>

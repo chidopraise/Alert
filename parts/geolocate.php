@@ -2,7 +2,7 @@
 <div class="profile-header text-center mt-5 pt-5">
 	<h1>Google Map and Search</h1>
 </div>
-<!----------
+
 <section id="map"></section>
 
 <div class="container search-section">
@@ -14,9 +14,9 @@
 		<button type="submit" class="btn btn-primary btn-block">Search</button>
 	</form>
 </div>
------->
 
 
+<!----------
     <div id="map" style="height: 400px; width: 100%;"></div>
 
     <script>
@@ -50,3 +50,4 @@
         }
       }
     </script>
+---->
