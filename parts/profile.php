@@ -69,7 +69,7 @@
 						<label for="date">Regisrtation Date</label>
 						<input type="text" class="form-control" id="date" value="<?php echo $control->date; ?>" disabled>
 					</div>
-					<button type="submit" class="btn btn-primary">Update Info</button>
+					<button type="submit" class="btn btn-primary" name="update">Update Info</button>
 				</form>
 			</div>
 			<div class="col-md-8 mt-5">

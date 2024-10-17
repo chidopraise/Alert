@@ -19,32 +19,34 @@ date_default_timezone_set("africa/lagos");
 		public $url = NULL;
 		
 		public function __construct(){
-			$this->ddate = date("h:i d/m/y");
-			$sql = "SELECT * FROM users WHERE id = '$_SESSION[user_id]'";
-			$retval = mysqli_query($this->conn(),$sql);
-			if(mysqli_num_rows($retval)){
-				$row = mysqli_fetch_assoc($retval);
-				$this->first_name = $row["first_name"];
-				$this->last_name = $row["last_name"];
-				$this->middle_name = $row["middle_name"];
-				$this->user_name = $row["user_name"];
-				$this->email = $row["email"];
-				$this->phone = $row["phone"];
-				$this->profile_pics = $row["profile_pics"];
-				$this->address = $row["address"];
-				$this->sex = $row["sex"];
-				$this->country = $row["country"];
-				$this->state = $row["state"];
-				$this->date_of_birth = $row["date_of_birth"];
-				$this->postal_code = $row["postal_code"];
-				$this->lga = $row["lga"];
-				$this->profession = $row["profession"];
-				$this->marital_status = $row["marital_status"];
-				$this->religion = $row["religion"];
-				$this->nk_name = $row["nk_name"];
-				$this->nk_phone = $row["nk_phone"];
-				$this->presence = $row["presence"];
-				$this->date = $row["date"];
+			if(isset($_SESSION["user_id"])){
+				$this->ddate = date("h:i d/m/y");
+				$sql = "SELECT * FROM users WHERE id = '$_SESSION[user_id]'";
+				$retval = mysqli_query($this->conn(),$sql);
+				if(mysqli_num_rows($retval)){
+					$row = mysqli_fetch_assoc($retval);
+					$this->first_name = $row["first_name"];
+					$this->last_name = $row["last_name"];
+					$this->middle_name = $row["middle_name"];
+					$this->user_name = $row["user_name"];
+					$this->email = $row["email"];
+					$this->phone = $row["phone"];
+					$this->profile_pics = $row["profile_pics"];
+					$this->address = $row["address"];
+					$this->sex = $row["sex"];
+					$this->country = $row["country"];
+					$this->state = $row["state"];
+					$this->date_of_birth = $row["date_of_birth"];
+					$this->postal_code = $row["postal_code"];
+					$this->lga = $row["lga"];
+					$this->profession = $row["profession"];
+					$this->marital_status = $row["marital_status"];
+					$this->religion = $row["religion"];
+					$this->nk_name = $row["nk_name"];
+					$this->nk_phone = $row["nk_phone"];
+					$this->presence = $row["presence"];
+					$this->date = $row["date"];
+				}
 			}
 		}
 		
@@ -150,7 +152,7 @@ date_default_timezone_set("africa/lagos");
 				if(mysqli_query($this->conn(),$sql)){
 					echo("TABLE SUCCESFULLY CREATED");
 				}else{
-					echo("could not create table".mysqli_error($conn));
+					echo("could not create table".mysqli_error($this->conn()));
 				}
 			}elseif($order == 'insert'){
 				if(mysqli_query($this->conn(),$sql)){
@@ -162,7 +164,7 @@ date_default_timezone_set("africa/lagos");
 						}
 					
 				}else{
-					die("could not insert record".mysqli_error($conn));
+					die("could not insert record".mysqli_error($this->conn()));
 					if(isset($_SESSION['first_name'])){
 						echo"<script type='text/javascript'> alert(' so sorry ".$_SESSION['first_name'].", you were unable to sign in that user please try again '); window.location.href = '../index.php';</script>";
 						}else{
@@ -299,11 +301,17 @@ date_default_timezone_set("africa/lagos");
 				}
 			}
 		}
+		
+		public function fix(){
+			$sql = "ALTER TABLE users ADD cordnate VARCHAR(50) NULL";
+			$this->sql_query("table",$sql);
+		}
 	}
 	$fetcher = new fetcher;
 	
 	//$fetcher->users_table();
 	//$fetcher->random_numbers();
 	//$fetcher->menu();
+	$fetcher->fix();
 	
 ?>
