@@ -29,7 +29,7 @@ Project planning, timeline management, resource allocation, risk management, and
 Implement UI/UX designs, ensuring responsiveness and integrating frontend features with backend services.
 Leadership and Impact:
 As a project manager, you are in a leadership position where you can directly influence the success of a project. You will be able to guide and motivate a team, make strategic decisions, and ensure that project goals align with organizational objectives. If you enjoy taking charge, solving complex problems, and seeing a project through from inception to completion, this role offers a chance to make a significant impact on the success of your organization and its projects.
-Diverse and Dynamic Work Environment:
+Diverse and Dynamic Work Environments:
 
 
 Gift Aghaulor
