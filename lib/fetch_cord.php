@@ -13,7 +13,7 @@ session_start();
 			//echo"love";
 			if(isset($_SESSION["user_id"])){
 				$user = $_REQUEST["q"];
-				$sql = "SELECT * FROM users WHERE user_name = '$user'";
+				$sql = "SELECT * FROM users WHERE user_name = '$user' || phone = '$user'";
 				$retval = mysqli_query($this->conn(),$sql);
 				if(mysqli_num_rows($retval)){
 					$row = mysqli_fetch_assoc($retval);

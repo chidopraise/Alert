@@ -13,5 +13,5 @@
 		</div>
 		<button type="submit" class="btn btn-primary btn-block" style="background-color:#000;">Search</button>
 	</form>
-	<button id="get_cord" class="btn btn-primary" style="background-color:#000;">Get Cordnate</button><input type="text" id="username" placeholder="User Name"><span id="show_cord"></span>
+	<button id="get_cord" class="btn btn-primary" style="background-color:#000;">Get Cordnate</button><input type="text" id="username" placeholder="User Name / Phone No."><span id="show_cord"></span>
 </div>
