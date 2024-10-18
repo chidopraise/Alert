@@ -13,7 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAifKUM_566u7e4dpOKUjoVaplDlH3ZQqo&callback=initMap"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcAKWEQPe2Bm_b0EU9kC2Cd7G776Se-dk&callback=initMap"></script>
 	
 	<script src="<?php $control->path('lib/script.js'); ?>"></script>
 	
