@@ -9,7 +9,7 @@
 	<h2 class="text-center">Search Location</h2>
 	<form id="search-form">
 		<div class="form-group">
-			<div type="text" class="form-control" id="location" placeholder="Enter a location"></div>
+			<input type="text" class="form-control" id="location" placeholder="Enter a location">
 		</div>
 		<button type="submit" class="btn btn-primary btn-block">Search</button>
 	</form>
